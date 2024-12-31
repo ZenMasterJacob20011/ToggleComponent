@@ -2,6 +2,7 @@ import {Formio} from "@formio/js";
 
 const Field = Formio.Components.components.field;
 export default class Toggle extends Field {
+
     static schema(...extend) {
         return Field.schema({
             type: 'toggle',

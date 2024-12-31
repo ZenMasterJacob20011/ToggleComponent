@@ -15,4 +15,4 @@ Formio.use({
 //     ]
 // }, {});
 
-Formio.builder(document.getElementById('builder'), {}, {});
+// Formio.builder(document.getElementById('builder'), {}, {});

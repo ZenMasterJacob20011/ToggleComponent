@@ -31,5 +31,9 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             }
         ]
+    },
+
+    externals: {
+        "@formio/js": 'Formio'
     }
 }
